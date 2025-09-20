@@ -140,7 +140,7 @@ function Home() {
 
       <section className="section contact">
         <h2 className="card-title">Contact Me</h2>
-        <form onSubmit={sendEmail}  className="contact-form"  >
+        <form   className="contact-form"  >
           <div className="form-group">
             <label htmlFor="name">Name</label>
             <input type="text" id="name" placeholder="Enter your name" required />
@@ -156,7 +156,7 @@ function Home() {
             <textarea id="message" rows="5" placeholder="Type your message..." required></textarea>
           </div>
 
-          <button type="submit">Send Message</button>
+          <button onClick={sendEmail} type="submit">Send Message</button>
         </form>
       </section>
     </div>
