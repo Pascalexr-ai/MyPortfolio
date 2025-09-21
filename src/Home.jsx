@@ -130,11 +130,14 @@ function Home() {
        <section className="Project-Show">
         <h2 className="card-title">Project</h2>
         <div className="Project">
-          <div className="Project">Qoute Generator</div>
-          <div className="Project">E-commerce</div>
-          <div className="Project">#</div>
-          <div className="Project">#</div>
-           <div className="Project">#</div>
+          <div className="Project"><a href="https://anime-senpai.vercel.app/">Animesenpai</a></div>
+          <div className="Project"><a href="https://music-player-zeta-umber.vercel.app/">Music Player</a></div>
+          <div className="Project"><a href="https://cta-pink.vercel.app/">CTA</a></div>
+          <div className="Project"><a href="https://dashboard-xi-puce.vercel.app/" target="_blank" rel="noopener noreferrer">
+  Dashboard
+</a>
+</div>
+          
         </div>
       </section>
 
