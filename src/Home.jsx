@@ -95,7 +95,7 @@ function Home() {
       <canvas id="fireworks"></canvas>
 
       <section className="hero">
-        <img src='/Profile-Pic.jpg' alt="My Photo" className="profile-pic floating" />
+        <img src='/Profile-Pic.JPG' alt="My Photo" className="profile-pic floating" />
         <h1 className="title">Pascale_XR</h1>
         <p className="subtitle">FULL STACK DEVELOPER</p>
       </section>
